@@ -1,0 +1,5 @@
+#include "m2c.h"
+
+s32 func_02076b14(void) {
+    return 8;
+}
