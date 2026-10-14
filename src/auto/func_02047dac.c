@@ -1,5 +1,3 @@
 #include "m2c.h"
 
-void func_02047dac(void) {
-
-}
+void func_02047dac(void) {}

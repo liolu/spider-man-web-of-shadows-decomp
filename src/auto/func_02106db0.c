@@ -12,8 +12,8 @@ void func_02106db0(s32 arg0, s32 arg1) {
             return;
         }
         var_r0 = 0;
-        if (M2C_FIELD(&data_0214e8e0, s32 (**)(), 0x18) != NULL) {
-            var_r0 = M2C_FIELD(&data_0214e8e0, s32 (**)(), 0x18)();
+        if (M2C_FIELD(&data_0214e8e0, s32(**)(), 0x18) != NULL) {
+            var_r0 = M2C_FIELD(&data_0214e8e0, s32(**)(), 0x18)();
         }
         if (var_r0 != 0) {
             func_02106e0c();

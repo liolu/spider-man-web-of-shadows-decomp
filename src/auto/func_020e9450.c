@@ -9,7 +9,7 @@ void func_020e9450(void *arg0, void *arg1) {
     if (((s32) M2C_FIELD(arg1, volatile s32 *, 0x70) <= 0) && ((s32) M2C_FIELD(arg0, volatile s32 *, 0x10) <= 0)) {
         return;
     }
-    temp_r2 = M2C_FIELD(arg1, volatile s32 *, 0x70) - 1;
+    temp_r2                               = M2C_FIELD(arg1, volatile s32 *, 0x70) - 1;
     M2C_FIELD(arg1, volatile s32 *, 0x70) = temp_r2;
     M2C_FIELD(arg0, volatile s32 *, 0x10) = temp_r2;
     if (temp_r2 <= 0) {

@@ -17,6 +17,6 @@ void func_02011d34(void *arg0, s32 arg1, s32 arg2, s32 arg3) {
     M2C_FIELD(arg0, s32 *, 0x18) = arg1;
     M2C_FIELD(arg0, s32 *, 0x1C) = arg2;
     M2C_FIELD(arg0, s32 *, 0x20) = arg3;
-    M2C_FIELD(arg0, s32 *, 4) = (s32) (arg2 & (M2C_FIELD(arg0, s32 *, 0x10) - 1));
-    M2C_FIELD(arg0, s32 *, 8) = (s32) (arg3 & 0x1F);
+    M2C_FIELD(arg0, s32 *, 4)    = (s32) (arg2 & (M2C_FIELD(arg0, s32 *, 0x10) - 1));
+    M2C_FIELD(arg0, s32 *, 8)    = (s32) (arg3 & 0x1F);
 }

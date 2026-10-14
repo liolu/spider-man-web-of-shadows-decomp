@@ -7,6 +7,6 @@ void func_020314cc(M2C_UNK arg0, void **arg1) {
     void *temp_ip;
 
     temp_ip = *arg1;
-    sp0 = temp_ip + M2C_FIELD(temp_ip, u8 *, 2);
+    sp0     = temp_ip + M2C_FIELD(temp_ip, u8 *, 2);
     func_020314c0(arg0, &sp0, *arg1, 0);
 }

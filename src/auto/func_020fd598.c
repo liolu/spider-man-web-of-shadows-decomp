@@ -1,5 +1,5 @@
-#include "m2c.h"
 #include "engine.h"
+#include "m2c.h"
 
 void func_020fb6a8(M2C_UNK);
 void func_020ffcfc(M2C_UNK);

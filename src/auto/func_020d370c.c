@@ -9,7 +9,7 @@ s32 func_020d370c(s32 arg0) {
     s32 temp_r0;
     s32 temp_r5;
 
-    temp_r0 = data_02149fb8 - 1;
+    temp_r0       = data_02149fb8 - 1;
     data_02149fb8 = temp_r0;
     if (temp_r0 == 0) {
         temp_r5 = data_02149e2c;

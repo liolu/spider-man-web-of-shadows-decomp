@@ -12,6 +12,6 @@ s32 func_020a87a4(void *arg0, s32 arg1) {
         return 0;
     }
     M2C_FIELD(arg0, s32 *, 0x80) = arg1;
-    M2C_FIELD(arg0, u8 *, 0x9C) = (u8) M2C_FIELD(M2C_FIELD(arg0, void **, 0x68), u8 *, 0x30);
+    M2C_FIELD(arg0, u8 *, 0x9C)  = (u8) M2C_FIELD(M2C_FIELD(arg0, void **, 0x68), u8 *, 0x30);
     return 1;
 }

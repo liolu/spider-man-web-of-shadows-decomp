@@ -11,10 +11,10 @@ void func_02106624(s32 arg0, s32 arg1) {
         if (M2C_FIELD(&data_0214e8c0, s32 *, 0) != 0) {
             return;
         }
-        var_r0 = 1;
+        var_r0                              = 1;
         M2C_FIELD(&data_0214e8c0, s32 *, 0) = 1;
-        if (M2C_FIELD(&data_0214e8c0, s32 (**)(), 4) != NULL) {
-            var_r0 = M2C_FIELD(&data_0214e8c0, s32 (**)(), 4)();
+        if (M2C_FIELD(&data_0214e8c0, s32(**)(), 4) != NULL) {
+            var_r0 = M2C_FIELD(&data_0214e8c0, s32(**)(), 4)();
         }
         if (var_r0 == 0) {
             return;

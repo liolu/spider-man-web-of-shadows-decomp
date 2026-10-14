@@ -7,5 +7,5 @@ void func_0203b724(void *arg0, void *arg1) {
         return;
     }
     M2C_FIELD(arg1, M2C_UNK **, 0) = &data_0212a444;
-    M2C_FIELD(arg1, s32 *, 4) = (s32) M2C_FIELD(arg0, s32 *, 4);
+    M2C_FIELD(arg1, s32 *, 4)      = (s32) M2C_FIELD(arg0, s32 *, 4);
 }

@@ -11,7 +11,7 @@ void *func_02015a54(void *arg0) {
     temp_r1 = M2C_FIELD(arg0, void **, 0x10);
     if (temp_r1 != NULL) {
         M2C_FIELD(temp_r1, void ***, 4) = (void **) M2C_FIELD(arg0, void ***, 0x14);
-        temp_r1_2 = M2C_FIELD(arg0, void ***, 0x14);
+        temp_r1_2                       = M2C_FIELD(arg0, void ***, 0x14);
         if (temp_r1_2 != NULL) {
             *temp_r1_2 = M2C_FIELD(arg0, void **, 0x10);
         }

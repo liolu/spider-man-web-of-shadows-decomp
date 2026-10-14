@@ -7,6 +7,6 @@ void func_020fc918(s32 arg0, s32 arg1, s16 arg2, s32 arg3, s32 arg4) {
     if (arg4 != 0) {
         var_r1 |= 0x8000;
     }
-    M2C_FIELD((void *)0x04000350, s32 *, 0) = var_r1;
-    M2C_FIELD((void *)0x04000350, s16 *, 4) = arg2;
+    M2C_FIELD((void *) 0x04000350, s32 *, 0) = var_r1;
+    M2C_FIELD((void *) 0x04000350, s16 *, 4) = arg2;
 }

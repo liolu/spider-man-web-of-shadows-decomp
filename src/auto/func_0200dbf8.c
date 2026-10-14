@@ -8,7 +8,7 @@ void func_0200dbf8(void *arg0) {
         return;
     }
     M2C_FIELD(arg0, s32 *, 0x44) = (s32) (M2C_FIELD(arg0, s32 *, 0x44) & ~0x300);
-    M2C_FIELD(arg0, u8 *, 0x36) = 0U;
+    M2C_FIELD(arg0, u8 *, 0x36)  = 0U;
     func_0200c704(arg0 + 0x44);
     func_0200dc34(arg0);
 }

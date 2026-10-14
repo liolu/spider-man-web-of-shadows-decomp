@@ -8,7 +8,7 @@ void func_020408e4(s32 arg0, void *arg1) {
 
     var_r1 = func_020f39e0(arg0, 0);
     if (var_r1 != NULL) {
-loop_1:
+    loop_1:
         if ((u32) M2C_FIELD(arg1, u8 *, 0x3D) >= (u32) M2C_FIELD(var_r1, u8 *, 0x3D)) {
             var_r1 = func_020f39e0(arg0);
             if (var_r1 != NULL) {

@@ -11,7 +11,7 @@ s32 func_020410e4(u32 arg0, M2C_UNK arg1, u32 arg2, s32 arg3) {
     void *temp_r2;
     void *temp_r4;
 
-    var_r5 = arg2;
+    var_r5  = arg2;
     temp_r4 = data_02148cb8;
     temp_r2 = M2C_FIELD(temp_r4, void **, 0x84);
     if (arg0 >= (u32) M2C_FIELD(temp_r2, u32 *, 8)) {

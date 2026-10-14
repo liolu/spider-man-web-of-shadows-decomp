@@ -18,10 +18,10 @@ void func_02103c24(void) {
     if (var_r0 == 0) {
         func_020ff7c4(temp_r4);
         M2C_FIELD(&data_0214df10, u16 *, 0x38) = (u16) (M2C_FIELD(&data_0214df10, u16 *, 0x38) | 4);
-        if (M2C_FIELD(&data_0214df10, M2C_UNK (**)(M2C_UNK, M2C_UNK, M2C_UNK), 4) == NULL) {
+        if (M2C_FIELD(&data_0214df10, M2C_UNK(**)(M2C_UNK, M2C_UNK, M2C_UNK), 4) == NULL) {
             return;
         }
-        M2C_FIELD(&data_0214df10, M2C_UNK (**)(M2C_UNK, M2C_UNK, M2C_UNK), 4)(2, 4, 0);
+        M2C_FIELD(&data_0214df10, M2C_UNK(**)(M2C_UNK, M2C_UNK, M2C_UNK), 4)(2, 4, 0);
         return;
     }
     M2C_FIELD(&data_0214df10, u16 *, 0x3A) = (u16) (M2C_FIELD(&data_0214df10, u16 *, 0x3A) | 4);

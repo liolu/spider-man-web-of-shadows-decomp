@@ -16,7 +16,7 @@ void func_0204249c(void *arg0) {
         func_020437a0(arg0);
     }
     if (((s32) (M2C_FIELD(arg0, s32 *, 0x110) << 0x1F) >> 0x1F) != 0) {
-        M2C_FIELD(arg0, M2C_UNK (**)(void *), 0x16C)(arg0);
+        M2C_FIELD(arg0, M2C_UNK(**)(void *), 0x16C)(arg0);
     }
     func_02042534(arg0);
     func_020fedf0(&data_02149370);

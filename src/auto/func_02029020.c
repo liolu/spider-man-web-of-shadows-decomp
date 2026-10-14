@@ -15,7 +15,7 @@ void func_02029020(void *arg0, void *arg1, void *arg2) {
         return;
     }
     temp_r3_2 = M2C_FIELD(arg0, void **, 0);
-    temp_r1 = M2C_FIELD(arg2, s16 *, 4);
+    temp_r1   = M2C_FIELD(arg2, s16 *, 4);
     if ((s32) temp_r1 >= (s32) M2C_FIELD(temp_r3_2, s16 *, 0x10)) {
         return;
     }

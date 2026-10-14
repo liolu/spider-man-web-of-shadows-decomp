@@ -20,7 +20,7 @@ void *func_02019864(s32 arg0, void *arg1, void *arg2, void *arg3) {
             } else if (temp_r4 > temp_r0) {
                 var_r4 = 0;
             } else {
-                temp_r5 = M2C_FIELD(arg1, s32 *, 4);
+                temp_r5   = M2C_FIELD(arg1, s32 *, 4);
                 temp_r4_2 = M2C_FIELD(var_r2, s32 *, 0x10);
                 if (temp_r4_2 < temp_r5) {
                     var_r4 = 1;

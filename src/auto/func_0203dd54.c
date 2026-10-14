@@ -8,8 +8,8 @@ s32 func_0203dd54(void *arg0, void *arg1) {
     s32 temp_r0;
 
     M2C_FIELD(arg0, s8 *, 4) = 0;
-    temp_r0 = func_0203d828(arg0, M2C_FIELD(arg1, s32 *, 4), M2C_FIELD(arg1, s32 *, 8));
-    sp0 = temp_r0;
+    temp_r0                  = func_0203d828(arg0, M2C_FIELD(arg1, s32 *, 4), M2C_FIELD(arg1, s32 *, 8));
+    sp0                      = temp_r0;
     if (temp_r0 == 0) {
         return 0;
     }

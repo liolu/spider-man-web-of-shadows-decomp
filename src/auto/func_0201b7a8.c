@@ -14,7 +14,8 @@ void func_0201b7a8(void *arg0) {
         return;
     }
     do {
-        func_0201bc44(arg0, M2C_FIELD(arg0, s32 *, 0x34), (var_r4 * M2C_FIELD(M2C_FIELD(arg0, void **, 0x20), s32 *, 0xC)) + M2C_FIELD(arg0, s32 *, 0x38));
+        func_0201bc44(arg0, M2C_FIELD(arg0, s32 *, 0x34),
+                      (var_r4 * M2C_FIELD(M2C_FIELD(arg0, void **, 0x20), s32 *, 0xC)) + M2C_FIELD(arg0, s32 *, 0x38));
         var_r4 += 1;
     } while (var_r4 < (s32) M2C_FIELD(arg0, s32 *, 0x54));
 }

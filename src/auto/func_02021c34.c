@@ -18,12 +18,12 @@ void func_02021c34(void *arg0, s32 arg1, s32 arg2) {
         return;
     }
     switch (arg1) {                                 /* irregular */
-    case 4:
-        func_02021a04(arg0, M2C_FIELD(arg0, s32 *, 0x88) + ((s32) M2C_FIELD(arg0, s32 *, 0x84) >> 0xC));
-        break;
-    case 5:
-        func_02021a04(arg0, M2C_FIELD(arg0, s32 *, 0x88) - ((s32) M2C_FIELD(arg0, s32 *, 0x84) >> 0xC));
-        break;
+        case 4:
+            func_02021a04(arg0, M2C_FIELD(arg0, s32 *, 0x88) + ((s32) M2C_FIELD(arg0, s32 *, 0x84) >> 0xC));
+            break;
+        case 5:
+            func_02021a04(arg0, M2C_FIELD(arg0, s32 *, 0x88) - ((s32) M2C_FIELD(arg0, s32 *, 0x84) >> 0xC));
+            break;
     }
     M2C_FIELD(arg0, s32 *, 0x84) = (s32) (M2C_FIELD(arg0, s32 *, 0x84) + M2C_FIELD(arg0, s32 *, 0x78));
 }

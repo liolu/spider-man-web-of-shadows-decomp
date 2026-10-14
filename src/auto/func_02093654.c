@@ -10,7 +10,7 @@ void *func_02093654(void *arg0) {
 
     var_r1 = M2C_FIELD(arg0, void ***, 0x6C);
     if (var_r1 != NULL) {
-        var_r2 = *var_r1;
+        var_r2  = *var_r1;
         temp_r0 = arg0 + 0x6C;
         if (var_r2 != temp_r0) {
             do {

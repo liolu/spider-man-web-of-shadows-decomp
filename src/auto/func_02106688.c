@@ -15,7 +15,7 @@ void func_02106688(void) {
     func_020ffd64(1);
     func_020ffd64(2);
     func_020ffd64(3);
-    if (((s32) (*(u16 *)0x027FFFA8 & 0x8000) >> 0xF) != 0) {
+    if (((s32) (*(u16 *) 0x027FFFA8 & 0x8000) >> 0xF) != 0) {
         var_r0 = func_0210458c();
         if (var_r0 == 4) {
             do {

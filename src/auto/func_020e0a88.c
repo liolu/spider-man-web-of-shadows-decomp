@@ -14,7 +14,7 @@ void func_020e0a88(void *arg0) {
             func_020e7bdc(arg0 + 0xC);
         }
         func_020e0b94(arg0);
-        M2C_FIELD(arg0, u8 *, 8) = 0U;
+        M2C_FIELD(arg0, u8 *, 8)  = 0U;
         M2C_FIELD(arg0, s32 *, 4) = 0;
     }
     if (M2C_FIELD(arg0, s32 *, 4) != 0) {

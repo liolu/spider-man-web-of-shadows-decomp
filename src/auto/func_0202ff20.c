@@ -9,7 +9,7 @@ s32 func_0202ff20(s32 *arg0) {
 
     temp_r1 = *arg0;
     if (temp_r1 == 2) {
-        var_r2 = ((s8 *)arg0 + 4);
+        var_r2 = ((s8 *) arg0 + 4);
     } else {
         var_r2 = NULL;
     }
@@ -17,7 +17,7 @@ s32 func_0202ff20(s32 *arg0) {
         return 0;
     }
     if (temp_r1 == 1) {
-        var_r1 = ((s8 *)arg0 + 4);
+        var_r1 = ((s8 *) arg0 + 4);
     } else {
         var_r1 = NULL;
     }

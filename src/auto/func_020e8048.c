@@ -28,8 +28,10 @@ void func_020e8048(M2C_UNK arg0, void *arg1, s32 arg2, s32 arg3) {
     }
     var_r5 = 0;
     do {
-        func_020e8268(arg0, M2C_FIELD(arg1, s32 *, 0) + var_r5, M2C_FIELD(arg1, s32 *, 4), func_020e81b0(arg0, var_r6 + var_r5, temp_r4));
-        func_020e8268(arg0, M2C_FIELD(arg1, s32 *, 0) + var_r5, M2C_FIELD(arg1, s32 *, 4) + 1, func_020e81b0(arg0, var_r6 + var_r5, temp_r4 + 1));
+        func_020e8268(arg0, M2C_FIELD(arg1, s32 *, 0) + var_r5, M2C_FIELD(arg1, s32 *, 4),
+                      func_020e81b0(arg0, var_r6 + var_r5, temp_r4));
+        func_020e8268(arg0, M2C_FIELD(arg1, s32 *, 0) + var_r5, M2C_FIELD(arg1, s32 *, 4) + 1,
+                      func_020e81b0(arg0, var_r6 + var_r5, temp_r4 + 1));
         var_r5 += 1;
     } while (var_r5 < 0xA);
 }

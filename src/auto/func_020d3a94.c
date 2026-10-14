@@ -11,7 +11,7 @@ s32 func_020d3a94(s32 arg0) {
     s32 temp_r0;
     s32 temp_r5;
 
-    temp_r0 = data_02149fb0 - 1;
+    temp_r0       = data_02149fb0 - 1;
     data_02149fb0 = temp_r0;
     if (temp_r0 == 0) {
         temp_r5 = data_02145c34;

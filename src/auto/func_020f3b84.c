@@ -5,10 +5,10 @@ void *func_020f3b84(void *arg0, void *arg1, void *arg2) {
 
     M2C_FIELD(arg1, void **, 8) = arg2;
     if (arg2 != NULL) {
-        var_r3 = M2C_FIELD(arg2, void **, 0xC);
+        var_r3                        = M2C_FIELD(arg2, void **, 0xC);
         M2C_FIELD(arg2, void **, 0xC) = arg1;
     } else {
-        var_r3 = M2C_FIELD(arg0, void **, 0);
+        var_r3                      = M2C_FIELD(arg0, void **, 0);
         M2C_FIELD(arg0, void **, 0) = arg1;
     }
     M2C_FIELD(arg1, void **, 0xC) = var_r3;

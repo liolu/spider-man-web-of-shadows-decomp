@@ -16,7 +16,7 @@ void *func_020d0c1c(void *arg0) {
 
     var_r1 = M2C_FIELD(arg0, void ***, 0x5C);
     if (var_r1 != NULL) {
-        var_r2 = *var_r1;
+        var_r2  = *var_r1;
         temp_r0 = arg0 + 0x5C;
         if (var_r2 != temp_r0) {
             do {
@@ -28,7 +28,7 @@ void *func_020d0c1c(void *arg0) {
     }
     var_r1_2 = M2C_FIELD(arg0, void ***, 0x54);
     if (var_r1_2 != NULL) {
-        var_r2_2 = *var_r1_2;
+        var_r2_2  = *var_r1_2;
         temp_r0_2 = arg0 + 0x54;
         if (var_r2_2 != temp_r0_2) {
             do {
@@ -40,7 +40,7 @@ void *func_020d0c1c(void *arg0) {
     }
     var_r1_3 = M2C_FIELD(arg0, void ***, 0x4C);
     if (var_r1_3 != NULL) {
-        var_r2_3 = *var_r1_3;
+        var_r2_3  = *var_r1_3;
         temp_r0_3 = arg0 + 0x4C;
         if (var_r2_3 != temp_r0_3) {
             do {

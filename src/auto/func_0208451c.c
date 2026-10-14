@@ -8,7 +8,7 @@ s32 func_0208451c(s32 arg0) {
     M2C_UNK *temp_r5;
     s32 temp_r0;
 
-    temp_r0 = data_02149e24 - 1;
+    temp_r0       = data_02149e24 - 1;
     data_02149e24 = temp_r0;
     if (temp_r0 == 0) {
         temp_r5 = data_02149e28;

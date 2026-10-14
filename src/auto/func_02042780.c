@@ -18,7 +18,7 @@ void func_02042780(s32 arg0, s32 arg1, void *arg2) {
     func_0204249c(arg2);
     M2C_FIELD(arg2, s32 *, 0x12C) = 0;
     M2C_FIELD(arg2, s32 *, 0x130) = 0;
-    M2C_FIELD(arg2, s8 *, 0x124) = 0;
+    M2C_FIELD(arg2, s8 *, 0x124)  = 0;
     if ((s32) M2C_FIELD(arg2, s32 *, 0x120) > 0) {
         func_02043584(arg2);
         M2C_FIELD(arg2, s32 *, 0x120) = 0;

@@ -5,7 +5,7 @@ s32 func_020e68d8(s32 arg0, s32 arg1) {
     u32 temp_r2;
 
     temp_r2 = arg1 - 4;
-    var_r0 = 1;
+    var_r0  = 1;
     if (temp_r2 > 0xBU) {
         return 1;
     }

@@ -7,8 +7,8 @@ void *func_020e270c(void *arg0, u8 *arg1) {
 
     sp0 = *arg1;
     func_020e2748(arg0, &sp0);
-    M2C_FIELD(arg0, s8 *, 0xC) = 0;
-    M2C_FIELD(arg0, s8 *, 0xD) = 0;
+    M2C_FIELD(arg0, s8 *, 0xC)   = 0;
+    M2C_FIELD(arg0, s8 *, 0xD)   = 0;
     M2C_FIELD(arg0, s32 *, 0x10) = 2;
     return arg0;
 }

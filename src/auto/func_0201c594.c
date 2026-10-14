@@ -1,5 +1,5 @@
-#include "m2c.h"
 #include "engine.h"
+#include "m2c.h"
 
 M2C_UNK func_0201b294(M2C_UNK);
 void func_0201c588(M2C_UNK, M2C_UNK);
@@ -10,7 +10,7 @@ s32 func_0201c594(s32 arg0, s32 arg1) {
     void *sp0;
     s32 temp_r1;
 
-    if ((s32) *(s32 *) func_0201b294(M2C_FIELD(arg0, volatile s32 *, 8)) < 0) {
+    if ((s32) * (s32 *) func_0201b294(M2C_FIELD(arg0, volatile s32 *, 8)) < 0) {
         temp_r1 = M2C_FIELD(arg0, volatile s32 *, 8);
         if (arg1 != 0) {
             func_0201c588((s32) &sp8, temp_r1);

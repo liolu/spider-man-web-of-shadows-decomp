@@ -8,13 +8,13 @@ s32 func_0200aa20(u16 *arg0) {
     }
     temp_r0 = (u32) (*arg0 << 0x1E) >> 0x1E;
     switch (temp_r0) {                              /* irregular */
-    case 0:
-        return 0;
-    case 1:
-        return 0x200;
-    case 2:
-        return 0x20;
-    default:
-        return 0;
+        case 0:
+            return 0;
+        case 1:
+            return 0x200;
+        case 2:
+            return 0x20;
+        default:
+            return 0;
     }
 }

@@ -1,5 +1,5 @@
-#include "m2c.h"
 #include "engine.h"
+#include "m2c.h"
 
 M2C_UNK func_02040e3c(void);
 M2C_UNK func_0204117c(M2C_UNK);
@@ -14,7 +14,7 @@ s32 func_020412e4(s32 arg0, s32 arg1, s32 arg2, s32 arg3, s32 *arg4) {
     if (temp_r0 == 0) {
         return 3;
     }
-    temp_r0_2 = *(M2C_UNK *)temp_r0;
+    temp_r0_2 = *(M2C_UNK *) temp_r0;
     if (arg1 & 8) {
         var_r0 = func_0204161c(temp_r0_2, arg2, arg3);
         if (var_r0 == 0) {

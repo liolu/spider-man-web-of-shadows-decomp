@@ -29,7 +29,7 @@ void *func_0201467c(void *arg0) {
     func_0201499c(arg0);
     func_020f7304();
     data_02145820 = 0;
-    temp_r5 = M2C_FIELD(arg0, void **, 0x14);
+    temp_r5       = M2C_FIELD(arg0, void **, 0x14);
     if (temp_r5 != NULL) {
         func_02006194(M2C_FIELD(temp_r5, s32 *, 8));
         func_02006194(M2C_FIELD(temp_r5, s32 *, 4));
@@ -39,13 +39,13 @@ void *func_0201467c(void *arg0) {
     if (var_r1 != NULL) {
         do {
             M2C_FIELD(var_r1, void **, 0) = NULL;
-            var_r1 = M2C_FIELD(var_r1, void ***, 4);
+            var_r1                        = M2C_FIELD(var_r1, void ***, 4);
         } while (var_r1 != NULL);
     }
     temp_r1 = M2C_FIELD(arg0, void **, 0);
     if (temp_r1 != NULL) {
         M2C_FIELD(temp_r1, void ***, 4) = (void **) M2C_FIELD(arg0, void ***, 4);
-        temp_r1_2 = M2C_FIELD(arg0, void ***, 4);
+        temp_r1_2                       = M2C_FIELD(arg0, void ***, 4);
         if (temp_r1_2 != NULL) {
             *temp_r1_2 = M2C_FIELD(arg0, void **, 0);
         }

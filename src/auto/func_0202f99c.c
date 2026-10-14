@@ -5,7 +5,7 @@ void func_0202f99c(s32 *arg0, s32 *arg1) {
     s32 var_r1_2;
 
     if (*arg1 == 0) {
-        var_r1 = ((s8 *)arg1 + 4);
+        var_r1 = ((s8 *) arg1 + 4);
     } else {
         var_r1 = NULL;
     }

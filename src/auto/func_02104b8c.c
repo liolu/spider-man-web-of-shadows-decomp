@@ -8,7 +8,7 @@ extern M2C_UNK func_02105184;
 s32 func_02104b8c(M2C_UNK arg0) {
     s32 temp_r0;
 
-    temp_r0 = func_02104b18(arg0, &func_02105184, 0);
+    temp_r0                                = func_02104b18(arg0, &func_02105184, 0);
     M2C_FIELD(&data_0214dfb4, s32 *, 0x24) = temp_r0;
     if (temp_r0 == 0) {
         func_02105194();

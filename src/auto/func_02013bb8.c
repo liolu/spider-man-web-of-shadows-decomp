@@ -8,7 +8,7 @@ void func_02013bb8(s32 *arg0) {
     s32 var_r4;
     s32 var_r5;
 
-    var_r5 = ((s8 *)arg0 + 0xC);
+    var_r5 = ((s8 *) arg0 + 0xC);
     var_r4 = 0;
     do {
         temp_r0 = *arg0;

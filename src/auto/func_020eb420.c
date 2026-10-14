@@ -12,7 +12,7 @@ void func_020eb420(void *arg0) {
     s32 var_r1;
 
     if (M2C_FIELD(arg0, s32 *, 0xF8) != 0) {
-        temp_r1 = M2C_FIELD(arg0, s32 *, 0xFC) - 1;
+        temp_r1                      = M2C_FIELD(arg0, s32 *, 0xFC) - 1;
         M2C_FIELD(arg0, s32 *, 0xFC) = temp_r1;
         if (temp_r1 <= 0) {
             func_020eb1fc(arg0, 0);
@@ -22,7 +22,7 @@ void func_020eb420(void *arg0) {
         return;
     }
     temp_r0 = M2C_FIELD(arg0, s32 *, 0x108);
-    var_r1 = M2C_FIELD(arg0, s32 *, 0x1A8);
+    var_r1  = M2C_FIELD(arg0, s32 *, 0x1A8);
     if (var_r1 == temp_r0) {
         return;
     }

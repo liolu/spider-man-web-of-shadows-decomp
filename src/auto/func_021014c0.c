@@ -12,8 +12,8 @@ void func_021014c0(void *arg0) {
     var_r0 = M2C_FIELD(arg0, void **, 0x18);
     if (var_r0 != NULL) {
         do {
-            temp_r6 = M2C_FIELD(var_r0, void **, 4);
-            M2C_FIELD(var_r0, s32 *, 0) = 0;
+            temp_r6                       = M2C_FIELD(var_r0, void **, 4);
+            M2C_FIELD(var_r0, s32 *, 0)   = 0;
             M2C_FIELD(var_r0, void **, 4) = NULL;
             func_020fef94(var_r0, 8);
             var_r0 = temp_r6;

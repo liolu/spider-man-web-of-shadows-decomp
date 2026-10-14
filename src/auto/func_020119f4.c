@@ -23,6 +23,6 @@ void func_020119f4(void *arg0, u32 arg1) {
         func_02109994(&data_021280a4);
         func_02106fc4();
     }
-    M2C_FIELD(arg0, s32 *, 0) = temp_r0;
+    M2C_FIELD(arg0, s32 *, 0)   = temp_r0;
     M2C_FIELD(arg0, s32 *, 0xC) = (s32) (arg1 + 1);
 }

@@ -7,7 +7,7 @@ s32 func_020f7304(void) {
     s32 temp_r0;
 
     func_01ffbf04();
-    temp_r0 = data_0214b82c;
+    temp_r0       = data_0214b82c;
     data_0214b82c = 0;
     return temp_r0;
 }

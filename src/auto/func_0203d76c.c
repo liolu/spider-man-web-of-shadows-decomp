@@ -22,5 +22,6 @@ s32 func_0203d76c(M2C_UNK arg0, M2C_UNK arg1, s32 arg2, s32 arg3) {
     if (temp_r0 == NULL) {
         return 0;
     }
-    return func_0203d6c0(arg0, arg1, M2C_FIELD(temp_r0, u8 *, 9), M2C_FIELD(temp_r0, u16 *, 4), (s32) M2C_FIELD(temp_r0, u8 *, 8), temp_r0, temp_r0_2, arg2, arg3);
+    return func_0203d6c0(arg0, arg1, M2C_FIELD(temp_r0, u8 *, 9), M2C_FIELD(temp_r0, u16 *, 4),
+                         (s32) M2C_FIELD(temp_r0, u8 *, 8), temp_r0, temp_r0_2, arg2, arg3);
 }

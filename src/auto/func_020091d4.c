@@ -9,7 +9,7 @@ void func_020091d4(void) {
     var_r6 = 0;
     do {
         var_r5 = 0;
-loop_2:
+    loop_2:
         func_020084ec(var_r6, var_r5);
         var_r5 += 1;
         if (var_r5 < 4) {

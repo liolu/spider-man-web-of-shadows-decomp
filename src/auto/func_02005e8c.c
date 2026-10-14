@@ -12,6 +12,6 @@ void func_02005e8c(s32 arg0) {
         return;
     }
     func_020fed6c(&data_0213fd48);
-    func_020f408c(*((M2C_UNK *)((s8 *)&data_0213fd60 + (func_020f4100(arg0) * 0x14))), arg0);
+    func_020f408c(*((M2C_UNK *) ((s8 *) &data_0213fd60 + (func_020f4100(arg0) * 0x14))), arg0);
     func_020fedf0(&data_0213fd48);
 }

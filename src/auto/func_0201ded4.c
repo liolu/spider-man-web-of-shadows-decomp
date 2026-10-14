@@ -12,7 +12,7 @@ void *func_0201ded4(void *arg0) {
     if (var_r2 == arg0) {
         data_02145a2c = var_r0;
     } else if (var_r0 != NULL) {
-loop_3:
+    loop_3:
         if (var_r0 == arg0) {
             M2C_FIELD(var_r2, s32 *, 4) = (s32) M2C_FIELD(arg0, s32 *, 4);
         } else {
