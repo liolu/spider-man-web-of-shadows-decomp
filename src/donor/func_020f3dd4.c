@@ -1,0 +1,81 @@
+/* compiler: 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto */
+/* func_020ae778 from projets/dragon-ball-origins/src/donor/func_020ae778.c (same code in another game of this workspace),
+ * reused by tools/donor_match.py */
+typedef unsigned int u32;
+typedef unsigned short u16;
+typedef int s32;
+typedef s32 BOOL;
+typedef struct UnkFndLink {
+    void *unk_00;
+    void *unk_04;
+} UnkFndLink;
+typedef struct UnkFndList {
+    void *unk_00;
+    void *unk_04;
+    u16 unk_08;
+    u16 unk_0a;
+} UnkFndList;
+typedef struct UnkFndHeapHead {
+    u32 unk_00;
+    UnkFndLink unk_04;
+    UnkFndList unk_0c;
+    void *unk_18;
+    void *unk_1c;
+    u32 unk_20;
+} UnkFndHeapHead;
+typedef struct UnkExpMBlock {
+    u16 unk_00;
+    u16 unk_02;
+    u32 unk_04;
+    struct UnkExpMBlock *unk_08;
+    struct UnkExpMBlock *unk_0c;
+} UnkExpMBlock;
+typedef struct UnkExpMBlockList {
+    UnkExpMBlock *unk_00;
+    UnkExpMBlock *unk_04;
+} UnkExpMBlockList;
+typedef struct UnkExpHeapHead {
+    UnkExpMBlockList unk_00;
+    UnkExpMBlockList unk_08;
+    u16 unk_10;
+    u16 unk_12;
+} UnkExpHeapHead;
+typedef struct UnkExpHeap {
+    UnkFndHeapHead unk_00;
+    UnkExpHeapHead unk_24;
+} UnkExpHeap;
+static inline u16 GetAllocMode(UnkExpHeapHead *exp) {
+    return (u16) (((exp->unk_12) >> (0)) & ((1 << (1)) - 1));
+}
+static inline void *GetMemPtrForMBlock(UnkExpMBlock *block) {
+    return (void *) ((u32) block + sizeof(UnkExpMBlock));
+}
+extern void *func_020f3c54(UnkExpHeapHead *exp, UnkExpMBlock *block, void *mem, u32 size, u16 direction);
+void *func_020f3dd4(UnkExpHeap *heap, u32 size, u32 alignment) {
+    UnkExpHeapHead *exp = &heap->unk_24;
+    BOOL first          = GetAllocMode(exp) == 0;
+    UnkExpMBlock *found = 0;
+    UnkExpMBlock *block;
+    u32 foundSize  = 0xffffffff;
+    void *foundMem = 0;
+
+    for (block = exp->unk_00.unk_00; block != 0; block = block->unk_0c) {
+        void *mem    = GetMemPtrForMBlock(block);
+        void *reqMem = (void *) ((((alignment) -1) + (u32) (mem)) & ~((alignment) -1));
+        u32 offset   = (u32) reqMem - (u32) mem;
+
+        if (block->unk_04 >= size + offset && foundSize > block->unk_04) {
+            found     = block;
+            foundSize = block->unk_04;
+            foundMem  = reqMem;
+            if (first || foundSize == size) {
+                break;
+            }
+        }
+    }
+
+    if (found == 0) {
+        return 0;
+    }
+    return func_020f3c54(exp, found, foundMem, size, 0);
+}
