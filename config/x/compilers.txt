@@ -230,3 +230,13 @@ src/auto/func_0210f2ac.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
 src/auto/func_0210f448.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
 src/auto/func_0210fd4c.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
 src/auto/func_0210fe98.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/auto/func_0200cb3c.c 2.0/sp1p5 -O2,p
+src/auto/func_0201222c.c 2.0/sp1p5 -O4,s
+src/auto/func_0201c840.c 2.0/sp1p5 -flag no-opt_rebuildconditionals
+src/auto/func_0201d19c.c 1.2/sp2p3 -O4,s
+src/auto/func_0201df7c.c 2.0/sp1p5 -O2,p
+src/auto/func_020fe054.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/auto/func_020ff82c.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/auto/func_02106774.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/auto/func_021067c4.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/auto/func_02106a44.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
