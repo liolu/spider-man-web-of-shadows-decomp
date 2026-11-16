@@ -10002,3 +10002,23 @@ src/auto/func_021067c4.c:
 src/auto/func_02106a44.c:
     complete
     .text       start:0x02106a44 end:0x02106a94
+
+src/auto/func_0200aeec.c:
+    complete
+    .text       start:0x0200aeec end:0x0200af08
+
+src/auto/func_0201c9a4.c:
+    complete
+    .text       start:0x0201c9a4 end:0x0201c9b8
+
+src/auto/func_0201cd5c.c:
+    complete
+    .text       start:0x0201cd5c end:0x0201ce40
+
+src/auto/func_02039cd0.c:
+    complete
+    .text       start:0x02039cd0 end:0x02039ce8
+
+src/auto/func_020e8950.c:
+    complete
+    .text       start:0x020e8950 end:0x020e89cc

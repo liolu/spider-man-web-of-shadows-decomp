@@ -240,3 +240,8 @@ src/auto/func_020ff82c.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
 src/auto/func_02106774.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
 src/auto/func_021067c4.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
 src/auto/func_02106a44.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/auto/func_0200aeec.c 2.0/sp1p5 -flag no-opt_rebuildlogicals
+src/auto/func_0201c9a4.c 2.0/sp1p5 -flag no-opt_arithtransformation
+src/auto/func_0201cd5c.c 2.0/sp1p5 -pid
+src/auto/func_02039cd0.c 2.0/sp1p5 -O0
+src/auto/func_020e8950.c 2.0/sp1p5 -flag no-global_optimizer
