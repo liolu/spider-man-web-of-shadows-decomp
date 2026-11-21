@@ -1,5 +1,7 @@
 # Spider-Man: Web of Shadows decompilation (X)
 
+> **This game moved to [liolu/All-nds-decomp-games](https://github.com/liolu/All-nds-decomp-games/tree/main/games/S/spider-man-web-of-shadows)** (`games/S/spider-man-web-of-shadows`), with its whole history: every Nintendo DS decompilation in one repository, one game downloadable on its own (`python nds.py get spider-man-web-of-shadows`). This repository is archived; issues and pull requests go there.
+
 <!-- bytematch:start -->
 [![Code](https://bytematch.dev/liolu/spider-man-web-of-shadows-decomp.svg?label=Code&measure=matched_code_percent)](https://bytematch.dev/liolu/spider-man-web-of-shadows-decomp) [![Data](https://bytematch.dev/liolu/spider-man-web-of-shadows-decomp.svg?label=Data&measure=matched_data_percent)](https://bytematch.dev/liolu/spider-man-web-of-shadows-decomp) [![Functions](https://bytematch.dev/liolu/spider-man-web-of-shadows-decomp.svg?label=Functions&measure=matched_functions)](https://bytematch.dev/liolu/spider-man-web-of-shadows-decomp)
 <!-- bytematch:end -->
